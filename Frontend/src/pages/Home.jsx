@@ -15,14 +15,14 @@ const Home = () => {
         {/* Left Text */}
         <div className="flex-1 text-white min-w-[300px]">
           <h1 className="text-4xl md:text-5xl font-bold leading-tight mb-4">
-            AI Agent Platform for <br />
+            PathFinder – <br />
             <span className="bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 bg-clip-text text-transparent font-extrabold">
-              Software Development
+              Your Mentor for Skills,
             </span>{" "}
-            Teams
+            Jobs & Growth
           </h1>
           <p className="text-gray-300 text-lg mb-6">
-            Transform software development with codeXpert’s Agentic AI Platform...
+            Personalized Roadmaps, Resume Help, Courses & Jobs – All in One Place...
           </p>
 
           <div className="flex flex-wrap gap-4">
@@ -51,7 +51,7 @@ const Home = () => {
       {/* Middle Heading */}
       <div className="w-full mt-28 flex justify-center">
         <div className="text-white text-2xl md:text-2xl font-semibold bg-gradient-to-r from-purple-500 to-pink-500 px-6 py-2 rounded-full inline-block">
-          An AI that masters your codebase
+          Don’t just dream, find your path to success.
         </div>
       </div>
 
@@ -59,10 +59,10 @@ const Home = () => {
       <section className="w-full max-w-6xl mt-20 px-4 text-white">
         <div className="text-center mb-12">
           <h2 className="text-3xl md:text-4xl font-bold mb-2">
-            Empower Your Team
+            Empower Yourself
           </h2>
           <p className="text-gray-300 text-lg max-w-2xl mx-auto">
-            Manage projects, collaborate effectively, and track team progress — all in one place.
+            Your mentor in the journey of skills, interviews, and career growth.
           </p>
         </div>
 
@@ -70,38 +70,38 @@ const Home = () => {
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
           <div className="bg-[#1a103d] p-8 rounded-xl text-center shadow-lg transition-transform duration-300 hover:-translate-y-2 hover:bg-gradient-to-r hover:from-indigo-500 hover:to-pink-500">
             👥
-            <h3 className="text-xl font-semibold mt-4 mb-2">Create Teams</h3>
-            <p className="text-gray-300">Form and organize project-specific teams with ease.</p>
+            <h3 className="text-xl font-semibold mt-4 mb-2">Career Roadmaps</h3>
+            <p className="text-gray-300">Step-by-step learning paths designed for every career field – Web Development, Data Science, Cloud, and more.</p>
           </div>
 
           <div className="bg-[#1a103d] p-8 rounded-xl text-center shadow-lg transition-transform duration-300 hover:-translate-y-2 hover:bg-gradient-to-r hover:from-indigo-500 hover:to-pink-500">
             🤝
-            <h3 className="text-xl font-semibold mt-4 mb-2">Work Together</h3>
-            <p className="text-gray-300">Collaborate with team members in real-time across tasks.</p>
+            <h3 className="text-xl font-semibold mt-4 mb-2">Best Courses & Resources</h3>
+            <p className="text-gray-300">Discover top free and paid courses from trusted platforms to upskill faster.</p>
           </div>
 
           <div className="bg-[#1a103d] p-8 rounded-xl text-center shadow-lg transition-transform duration-300 hover:-translate-y-2 hover:bg-gradient-to-r hover:from-indigo-500 hover:to-pink-500">
             🧑‍💼
-            <h3 className="text-xl font-semibold mt-4 mb-2">Task Assignment</h3>
-            <p className="text-gray-300">Team leaders can assign tasks and monitor progress instantly.</p>
+            <h3 className="text-xl font-semibold mt-4 mb-2">Resume Builder & Guidance</h3>
+            <p className="text-gray-300">Create ATS-friendly resumes with expert tips to stand out from the crowd.</p>
           </div>
 
           <div className="bg-[#1a103d] p-8 rounded-xl text-center shadow-lg transition-transform duration-300 hover:-translate-y-2 hover:bg-gradient-to-r hover:from-indigo-500 hover:to-pink-500">
             📋
-            <h3 className="text-xl font-semibold mt-4 mb-2">Track Progress</h3>
-            <p className="text-gray-300">Employees view pending and completed tasks in one dashboard.</p>
+            <h3 className="text-xl font-semibold mt-4 mb-2">Soft Skills Training</h3>
+            <p className="text-gray-300">Boost your communication, teamwork, leadership, and professional etiquette.</p>
           </div>
 
           <div className="bg-[#1a103d] p-8 rounded-xl text-center shadow-lg transition-transform duration-300 hover:-translate-y-2 hover:bg-gradient-to-r hover:from-indigo-500 hover:to-pink-500">
             📁
-            <h3 className="text-xl font-semibold mt-4 mb-2">Project Insights</h3>
-            <p className="text-gray-300">See who assigned what in each project and choose to accept or decline.</p>
+            <h3 className="text-xl font-semibold mt-4 mb-2">Mock Interviews</h3>
+            <p className="text-gray-300">Practice technical & HR interviews with real-time feedback to become job-ready.</p>
           </div>
 
           <div className="bg-[#1a103d] p-8 rounded-xl text-center shadow-lg transition-transform duration-300 hover:-translate-y-2 hover:bg-gradient-to-r hover:from-indigo-500 hover:to-pink-500">
             🧩
-            <h3 className="text-xl font-semibold mt-4 mb-2">Multi-Project Management</h3>
-            <p className="text-gray-300">Leaders can handle multiple teams and projects efficiently.</p>
+            <h3 className="text-xl font-semibold mt-4 mb-2">Internship & Job Screener</h3>
+            <p className="text-gray-300">Find personalized job and internship opportunities based on your skills.</p>
           </div>
         </div>
       </section>
