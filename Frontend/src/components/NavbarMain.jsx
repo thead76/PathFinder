@@ -12,7 +12,7 @@ const NavbarMain = () => {
     <header className="flex justify-between items-center px-8 py-4 sticky top-0 z-50 w-full text-white backdrop-blur-sm bg-[#0f0425]/10 font-orbitron" style={{ fontFamily: "Orbitron, sans-serif" }}>
       {/* Logo */}
       <div className="text-xl md:text-2xl font-medium tracking-wider uppercase">
-        codeXpert
+        PathFinder
       </div>
 
       {/* Hamburger (mobile) */}
@@ -43,7 +43,7 @@ const NavbarMain = () => {
         </NavLink>
 
         <NavLink
-          to="/code-review"
+          to="/resume-guidance"
           onClick={closeMenu}
           className={({ isActive }) =>
             `uppercase text-sm tracking-wide transition-colors ${
@@ -53,11 +53,25 @@ const NavbarMain = () => {
             }`
           }
         >
-          Code Review
+          Resume Guidance
+        </NavLink>
+
+          <NavLink
+          to="/mock-interview"
+          onClick={closeMenu}
+          className={({ isActive }) =>
+            `uppercase text-sm tracking-wide transition-colors ${
+              isActive
+                ? "text-cyan-400 border-b-2 border-cyan-400"
+                : "text-white hover:text-gray-300"
+            }`
+          }
+        >
+          Mock Interview
         </NavLink>
 
         <NavLink
-          to="/code-comments"
+          to="/courses"
           onClick={closeMenu}
           className={({ isActive }) =>
             `uppercase text-sm tracking-wide transition-colors ${
@@ -67,11 +81,11 @@ const NavbarMain = () => {
             }`
           }
         >
-          Code Comments
+          Courses
         </NavLink>
 
         <NavLink
-          to="/bug-finder"
+          to="/internships-jobs"
           onClick={closeMenu}
           className={({ isActive }) =>
             `uppercase text-sm tracking-wide transition-colors ${
@@ -81,7 +95,7 @@ const NavbarMain = () => {
             }`
           }
         >
-          Bug Finder
+          Internship/Jobs
         </NavLink>
 
         <button className="bg-white text-[#0f0425] px-4 py-2 rounded font-semibold text-sm hover:bg-gray-300 transition">

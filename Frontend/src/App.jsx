@@ -3,10 +3,10 @@ import NavbarMain from "./components/NavbarMain";
 import Footer from "./components/Footer";
 
 import Home from "./pages/Home";
-import CodeReview from "./pages/CodeReview";
-import CodeComments from "./pages/CodeComments.jsx";
-import BugFinder from "./pages/BugFinder";
-import ImproveCode from "./pages/ImproveCode";
+import MockInterview from "./pages/MockInterview.jsx";
+import Courses from "./pages/Courses.jsx";
+import ResumeGuide from "./pages/ResumeGuide.jsx";
+import InternshipsJobs from "./pages/InternshipsJobs.jsx";
 
 function App() {
   return (
@@ -15,13 +15,14 @@ function App() {
       <main className="flex-1 font-serif" >
         <Routes>
           <Route path="/" element={<Home />} />
-          <Route path="/code-review" element={<CodeReview />} />
-          <Route path="/code-comments" element={<CodeComments />} />
-          <Route path="/bug-finder" element={<BugFinder />} />
-          <Route path="/improve-code" element={<ImproveCode />} />
+          <Route path="/resume-guidance" element={<ResumeGuide />} />
+          <Route path="/courses" element={<Courses />} />
+          <Route path="/internships-jobs" element={<InternshipsJobs />} />
+          <Route path="/mock-interview" element={<MockInterview />} />
         </Routes>
       </main>
       <Footer />
+      
     </div>
   );
 }
