@@ -1,0 +1,28 @@
+# ---- Python ----
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.sqlite3
+
+# ---- Virtual environment ----
+venv/
+.env/
+.venv/
+
+# ---- FastAPI / Backend ----
+static/
+job_results.csv
+
+# ---- Node / React ----
+node_modules/
+dist/
+build/
+.cache/
+*.log
+
+# ---- OS / Editor ----
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
