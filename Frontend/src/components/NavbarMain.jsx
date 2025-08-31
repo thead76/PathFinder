@@ -55,7 +55,19 @@ const NavbarMain = () => {
         >
           Resume Guidance
         </NavLink>
-
+<NavLink
+          to="/courses"
+          onClick={closeMenu}
+          className={({ isActive }) =>
+            `uppercase text-sm tracking-wide transition-colors ${
+              isActive
+                ? "text-cyan-400 border-b-2 border-cyan-400"
+                : "text-white hover:text-gray-300"
+            }`
+          }
+        >
+          Courses
+        </NavLink>
           <NavLink
           to="/mock-interview"
           onClick={closeMenu}
@@ -70,19 +82,7 @@ const NavbarMain = () => {
           Mock Interview
         </NavLink>
 
-        <NavLink
-          to="/courses"
-          onClick={closeMenu}
-          className={({ isActive }) =>
-            `uppercase text-sm tracking-wide transition-colors ${
-              isActive
-                ? "text-cyan-400 border-b-2 border-cyan-400"
-                : "text-white hover:text-gray-300"
-            }`
-          }
-        >
-          Courses
-        </NavLink>
+        
 
         <NavLink
           to="/internships-jobs"
