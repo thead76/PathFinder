@@ -1,6 +1,7 @@
 import { Routes, Route } from "react-router-dom";
 import NavbarMain from "./components/NavbarMain";
 import Footer from "./components/Footer";
+import ChatWidget from "./components/ChatWidget";
 
 import Home from "./pages/Home";
 import MockInterview from "./pages/MockInterview.jsx";
@@ -20,6 +21,7 @@ function App() {
           <Route path="/internships-jobs" element={<InternshipsJobs />} />
           <Route path="/mock-interview" element={<MockInterview />} />
         </Routes>
+        <ChatWidget/>
       </main>
       <Footer />
       
